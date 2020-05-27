@@ -24,15 +24,22 @@ window.addEventListener("load", function() {
       if (isNaN(cargoMass.value)) {
          alert("Cargo Mass Must Be a Number");
       } 
-
      });
-   });
 
 
-faultyItems
+   //   faultyItems
+   let pilotStatus = document.getElementById('pilotStatus]');
+   let copilotStatus = document.getElementById('copilotstatus]');
+   let fuelStatus = document.getElementById('fuelStatus]');
+   let cargoStatus = document.getElementById('cargoStatus]');
+   
+   if (fuelLevel < 10000) {
+      window.alert('There is not enough fuel for the journey.');
 
-let pilotStatus = document.querySelector("input=[id=pilotStatus]");
-let copilotStatus = document.querySelector("input=[id=copilotstatus]");
+   }
+
+
+
 
 
 
@@ -48,3 +55,14 @@ let copilotStatus = document.querySelector("input=[id=copilotstatus]");
 </ol>
 <img src="${}">
 */
+
+
+});
+
+
+
+
+
+
+
+
