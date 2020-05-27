@@ -1,9 +1,9 @@
 // Write your JavaScript code here!
 
-// Add event.preventDefault();
+
 window.addEventListener("load", function() {
    let form = document.querySelector("form");
-   form.addEventListener("submit", function(event) {
+   form.addEventListener("formSubmit", function(event) {
       let pilotNameInput = document.querySelector("input[name=pilotName]");
       let copilotName = document.querySelector("input[name=copilotName]");
       // let fuelLevel = document.querySelector("input[name=fuelLevel]");
@@ -15,6 +15,7 @@ window.addEventListener("load", function() {
       }
      });
    });
+
 
 
 /* This block of code shows how to format the HTML once you fetch some planetary JSON!
