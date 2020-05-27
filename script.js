@@ -24,8 +24,7 @@ window.addEventListener("load", function() {
       if (isNaN(cargoMass.value)) {
          alert("Cargo Mass Must Be a Number");
       } 
-
-
+      
      });
    });
 
